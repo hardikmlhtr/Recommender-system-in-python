@@ -1,0 +1,23 @@
+
+Matrix Factorization technique for recommender system
+
+The following simulations of recommender systems assumes non negative matrix factorization. 
+Given input is the matrix in which ith row represent ratings of ith user and jth column represent 
+jth item ( movie). Ratings are non-negative and assumed to be in range (1, 5). 0
+represent a gap where the user has not rated the movie. Our aim is to fill this gap considering 
+his ratings to the other movies and ratings to that movie by other users. 
+Output matrix is X (= UVT  ) which represent the matrix approximately equal to given matrix as 
+input with the gaps filled.
+In this analysis I have started with two trivial cases, one in which each movie is rated same by 
+each user and the other in which each user rates same every movie. Each case is followed with simulations 
+with changing D (Dim (feature_vector) ) and effect of the change is observed and inferred after first case.
+Last two cases show the simulations with a 5*5 matrix and some 5*10 matrix showing that the code is functional 
+with a general m*n matrix.
+
+
+
+
+
+~~Simulations not shown as images are not supported in github yet.
+Mail me at hardikmlhtr@gmail.com to ask for simulations.
+Thanks!
